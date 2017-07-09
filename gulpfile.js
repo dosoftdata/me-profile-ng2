@@ -35,7 +35,8 @@ gulp.task('dependencies', function () {
     'node_modules/angular2/bundles/angular2-polyfills.js',
     'node_modules/rxjs/bundles/Rx.js',
     'node_modules/es6-shim/es6-shim.min.js',
-    'node_modules/es6-shim/es6-shim.map'
+    'node_modules/es6-shim/es6-shim.map',
+    'node_modules/jquery/dist/jquery.min.js',
   ])
     .pipe(gulp.dest('build/lib'));
 });
